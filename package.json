@@ -1,0 +1,26 @@
+{
+  "name": "drop0",
+  "version": "1.0.0",
+  "description": "drop automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimchak/drp0.git"
+  },
+  "author": "Lukasz Bartkowiak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kimchak/drp0/issues"
+  },
+  "homepage": "https://github.com/kimchak/drp0#readme",
+  "dependencies": {
+    "cypress": "^8.4.1",
+    "cypress-cucumber-preprocessor": "^4.2.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}

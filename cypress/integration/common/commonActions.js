@@ -9,7 +9,7 @@ const landing = new LandingPage;
 Before(()=>
 {
     cy.clearCookies();
-    // cy.clearLocalStorage();
+    cy.clearLocalStorage();
     cy.visit(Cypress.env('url'))
 }
 )

@@ -1,5 +1,6 @@
 {
     "testFiles": "**/*.{feature,features}",
+    "defaultCommandTimeout" : 15000,
     "env" :{
       "url" : "https://app.languagedrops.com/"
     }

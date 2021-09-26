@@ -21,4 +21,9 @@ export class LandingPage{
         cy.contains('Food').should('be.visible')
 
     }
+    openTopic(number){
+        cy.get(`[data-testid=Topic_${number}]`).click({force:true});
+    }
+
+
 }

@@ -3,7 +3,7 @@ Lukasz Bartkowiak
 
 ## Overview
 
-The purpose of this repository is to automate basic features of Drops app with Cypress + Cucumber.
+The repository contains a custom-made BDD automation framework made with Cypress.io and Cucumber. It is a complete test suite, utilizing BDD methodologies as well as Page Object Model concept. It could be used as a baseline for extensive regression test suite for the AUT (Aplication Under Test) app.languagedrops.com (react-native language learning game) or become a boilerplate for test automation of any other web application. 
 
 
 
